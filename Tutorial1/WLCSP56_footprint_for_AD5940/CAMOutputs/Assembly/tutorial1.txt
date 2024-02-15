@@ -1,0 +1,4 @@
+Partlist exported from C:/Users/Erick/Documents/EAGLE/projects/Tutorial1/tutorial1.sch at 9/2/2024 23:24
+
+Qty Value  Device Package Parts Description 
+1   AD5940 AD5940 WLCSP56 U$1   AD5940      
