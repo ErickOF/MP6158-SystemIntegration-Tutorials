@@ -1,0 +1,17 @@
+
+hpeesofsim (*) 570.shp Jul 18 2022, MINT version 5
+    (64-bit windows built: Tue Jul 19, 2022 06:26:23 +0000)
+
+
+***** Simulation started at Tue Mar  5 00:11:06 2024
+      Running on host: "RDS-Keysight"
+      In Directory: "C:\Users\eobregon\Documents\tutorial2_wrk\data"
+      Process ID: 20292
+
+
+SP SP1[1] <tutorial2_lib:ad5940:schematic>   freq=(4.5 GHz->5.5 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     1.50 seconds.
+

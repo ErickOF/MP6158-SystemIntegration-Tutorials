@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      eobregon
+HostName                       RDS-Keysight.estudiantes.ie.tec.ac.cr
+ProcessIdentifier              8124
+ProcessCreationTime_UTC        1709615210
+ProcessCreationTime_Readable   Mon Mar  4 23:06:50 2024 Central America Standard Time
+AppIdentifier                  OA File System Design Manager
+OSType                         win32
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         Z:\Documents\Work\ads_proj\tutorial2_wrk\tutorial2_lib\ad5940\schematic\sch.oa.cdslck
+TimeEditLocked                 Mon Mar  4 23:28:29 2024 Central America Standard Time
