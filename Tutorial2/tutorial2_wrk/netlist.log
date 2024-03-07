@@ -1,0 +1,33 @@
+; Top Design: "tutorial2_lib:ad5940:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="tutorial2_lib:ad5940:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+model Subst1 Substrate N=3 Er[1]=3.55 H[1]=0.406 mm TanD[1]=0.0021 T[1]=35 um Cond[1]=5.96E7 Er[2]=3.55 H[2]=0.406 mm TanD[2]=0.0021 T[2]=35 um Cond[2]=5.96E7 T[3]=35 um Cond[3]=5.96E7 LayerType[1]="signal" LayerType[2]="signal" LayerType[3]="ground" DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 Rough=0 um Huray_RatioOfA=1 Huray_r=0 um Huray_Aflat=0 um * 1 um Huray_N=14 
+PC_Pad:Pad1  Puerto_1 N__0 Subst="Subst1" DiamVia=0.1 mm DiamPad=0.267 mm Layer=1 Angle=180 
+PC_Via:Via1  N__0 N__3 N=1 S=0.0 Subst="Subst1" DiamVia=0.1 mm T=35 um Cond[1]=5.96E7 Layer1=1 Layer2=2 
+PC_Line:TL1  N__6 N__4 N=1 S=0 Subst="Subst1" Length=1 cm W=0.25 mm Layer=2 ReuseRLGC=0 W_FileFormat=0 
+Port:Term1  Puerto_1 0 Num=1 Z=50 Ohm Noise=yes 
+S_Param:SP1 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 \
+SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
+
+SweepPlan: SP1_stim Start=4.5 GHz Stop=5.5 GHz Step=1.0 MHz 
+
+OutputPlan:SP1_Output \
+      Type="Output" \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+#load "python","LinearCollapse"
+Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
+aele Zin1=zin(S11,PortZ1);
+aele Zin2=zin(S22,PortZ2);
+PC_Pad:Pad2  N__6 N__3 Subst="Subst1" DiamVia=0.1 mm DiamPad=0.267 mm Layer=2 Angle=180 
+PC_Pad:Pad4  N__2 N__4 Subst="Subst1" DiamVia=0.1 mm DiamPad=0.267 mm Layer=2 Angle=180 
+PC_Via:Via2  N__9 N__2 N=1 S=0.0 Subst="Subst1" DiamVia=0.1 mm T=35 um Cond[1]=5.96E7 Layer1=1 Layer2=2 
+PC_Pad:Pad3  N__9 N__5 Subst="Subst1" DiamVia=0.1 mm DiamPad=0.267 mm Layer=1 Angle=180 
+R:R3  N__5 N__10 R=50 Ohm Noise=yes 
+PC_Line:TL2  N__10 N__12 N=1 S=0 Subst="Subst1" Length=1 cm W=0.25 mm Layer=1 ReuseRLGC=0 W_FileFormat=0 
+PC_Pad:Pad5  N__12 Puerto_2 Subst="Subst1" DiamVia=0.1 mm DiamPad=0.267 mm Layer=1 Angle=180 
+Port:Term2  Puerto_2 0 Num=2 Z=50 Ohm Noise=yes 
