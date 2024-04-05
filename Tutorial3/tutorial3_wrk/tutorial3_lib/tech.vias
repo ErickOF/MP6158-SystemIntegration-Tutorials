@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Vias>
+<Vias Version="1000">
+ <Via Name="padstack_1">
+  <DefaultPad>
+   <Pad Type="Circle">
+    <Diam Unit="mm">0.28</Diam>
+   </Pad>
+   <Thermal Type="Full"/>
+   <KeepOut Type="None"/>
+   <AntiPad Type="SameAsKeepout"/>
+  </DefaultPad>
+  <Drill>
+   <Size Unit="mm">0.18</Size>
+  </Drill>
+ </Via>
+</Vias>

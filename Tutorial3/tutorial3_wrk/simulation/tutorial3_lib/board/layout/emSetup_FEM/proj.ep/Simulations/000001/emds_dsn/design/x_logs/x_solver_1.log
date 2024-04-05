@@ -1,0 +1,334 @@
+2024-03-16T22:54:18.865015  x_socket connecting
+2024-03-16T22:54:18.874021  x_socket connecting
+2024-03-16T22:54:18.874021 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2024-03-16T22:54:19.129032 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2024-03-16T22:54:19.381041 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2024-03-16T22:54:19.633049 x_socket: {"data": {"jobId": "0", "type": "fg_determine_setup_data", "args": {"Iovm": "/level4/design.ovm", "Icalc": "/../../Run0001/project.input", "Igeo": "/../../Run0001/geometry.input", "lvldir": "level4"}, "status": "started", "data": [], "workerId": "1", "processed": 0}, "status": "ok"}
+2024-03-16T22:54:19.633049 x_mode awaitExistence for: C:/Users/eobregon/Documents/tutorial3_wrk/simulation/tutorial3_lib/board/layout/emSetup_FEM/proj.ep/Simulations/000001/emds_dsn/design/level4/design.ovm
+2024-03-16T22:54:19.633049 x_mode awaitExistence end.
+2024-03-16T22:54:19.633049 x_mode awaitExistence for: C:/Users/eobregon/Documents/tutorial3_wrk/simulation/tutorial3_lib/board/layout/emSetup_FEM/proj.ep/Simulations/000001/Run0001/project.input
+2024-03-16T22:54:19.633049 x_mode awaitExistence end.
+2024-03-16T22:54:19.633049 x_mode awaitExistence for: C:/Users/eobregon/Documents/tutorial3_wrk/simulation/tutorial3_lib/board/layout/emSetup_FEM/proj.ep/Simulations/000001/Run0001/geometry.input
+2024-03-16T22:54:19.633049 x_mode awaitExistence end.
+2024-03-16T22:54:19.633049 x_mode awaitExistence for: C:/Users/eobregon/Documents/tutorial3_wrk/simulation/tutorial3_lib/board/layout/emSetup_FEM/proj.ep/Simulations/000001/emds_dsn/design/options.xml
+2024-03-16T22:54:19.633049 x_mode awaitExistence end.
+2024-03-16T22:54:19.633049 x_mode awaitExistence for: C:/Users/eobregon/Documents/tutorial3_wrk/simulation/tutorial3_lib/board/layout/emSetup_FEM/proj.ep/Simulations/000001/emds_dsn/design/status.sqlite
+2024-03-16T22:54:19.633049 x_mode awaitExistence end.
+2024-03-16T22:54:19.633049 x_mode awaitExistence for: C:/Users/eobregon/Documents/tutorial3_wrk/simulation/tutorial3_lib/board/layout/emSetup_FEM/proj.ep/Simulations/000001/emds_dsn/design/results.sqlite
+2024-03-16T22:54:19.633049 x_mode awaitExistence end.
+2024-03-16T22:54:21.010113 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2024-03-16T22:54:21.265128 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2024-03-16T22:54:21.517143 x_socket: {"data": {"jobId": "1", "type": "determine_cutoff_intervals", "args": {"minF": "0.000000000000000", "maxF": "10000000000.000000000000000", "Iovm": "/level4/design.ovm", "Icalc": "/../../Run0001/project.input", "Igeo": "/../../Run0001/geometry.input", "lvldir": "level4"}, "status": "started", "data": [], "workerId": "1", "processed": 0}, "status": "ok"}
+2024-03-16T22:54:21.517143 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2024-03-16T22:54:21.771630 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2024-03-16T22:54:22.024625 x_socket: {"data": {"jobId": "2", "type": "solve", "args": {"simdir": "f_1000.0", "Fsolve": "1000.000000000000000", "iterative_order": "2", "Iovm": "/level4/design.ovm", "Icalc": "/../../Run0001/project.input", "Igeo": "/../../Run0001/geometry.input", "lvldir": "level4"}, "status": "started", "data": [], "workerId": "1", "processed": 0}, "status": "ok"}
+PROGRESS 26
+PROGRESS 27
+PROGRESS 28
+PROGRESS 29
+PROGRESS 30
+PROGRESS 31
+PROGRESS 32
+PROGRESS 33
+PROGRESS 34
+PROGRESS 35
+PROGRESS 36
+PROGRESS 37
+PROGRESS 38
+PROGRESS 39
+PROGRESS 40
+PROGRESS 41
+PROGRESS 42
+PROGRESS 43
+PROGRESS 44
+PROGRESS 45
+PROGRESS 46
+PROGRESS 47
+PROGRESS 48
+PROGRESS 49
+PROGRESS 50
+PROGRESS 51
+PROGRESS 52
+PROGRESS 53
+PROGRESS 54
+PROGRESS 56
+PROGRESS 58
+PROGRESS 60
+PROGRESS 61
+PROGRESS 62
+PROGRESS 63
+PROGRESS 65
+PROGRESS 67
+PROGRESS 68
+PROGRESS 69
+PROGRESS 71
+PROGRESS 72
+PROGRESS 73
+PROGRESS 74
+PROGRESS 75
+PROGRESS 90
+PROGRESS 100
+
+ 1. Frequency: 1 kHz      Unknowns:  158998
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:46.0    Elapsed time: 00:00:07.4    Memory:   1.455 Gbyte 
+2024-03-16T22:54:27.079959 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2024-03-16T22:54:27.331894 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2024-03-16T22:54:27.583901 x_socket: {"data": {"jobId": "3", "type": "solve", "args": {"simdir": "f_3333334000.0", "Fsolve": "3333334000.000000000000000", "iterative_order": "2", "Iovm": "/level4/design.ovm", "Icalc": "/../../Run0001/project.input", "Igeo": "/../../Run0001/geometry.input", "lvldir": "level4"}, "status": "started", "data": [], "workerId": "1", "processed": 0}, "status": "ok"}
+PROGRESS 26
+PROGRESS 27
+PROGRESS 28
+PROGRESS 29
+PROGRESS 30
+PROGRESS 31
+PROGRESS 32
+PROGRESS 33
+PROGRESS 34
+PROGRESS 35
+PROGRESS 36
+PROGRESS 37
+PROGRESS 38
+PROGRESS 39
+PROGRESS 40
+PROGRESS 42
+PROGRESS 43
+PROGRESS 45
+PROGRESS 46
+PROGRESS 48
+PROGRESS 49
+PROGRESS 51
+PROGRESS 53
+PROGRESS 54
+PROGRESS 55
+PROGRESS 56
+PROGRESS 58
+PROGRESS 59
+PROGRESS 60
+PROGRESS 61
+PROGRESS 62
+PROGRESS 63
+PROGRESS 65
+PROGRESS 66
+PROGRESS 68
+PROGRESS 69
+PROGRESS 71
+PROGRESS 72
+PROGRESS 74
+PROGRESS 75
+PROGRESS 90
+PROGRESS 100
+
+ 2. Frequency: 3.33333 GHz      Unknowns:  158998
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:29.1    Elapsed time: 00:00:03.2    Memory:   1.458 Gbyte 
+2024-03-16T22:54:30.308029 x_socket: {"data": {"jobId": "4", "type": "solve", "args": {"simdir": "f_6666667000.0", "Fsolve": "6666667000.000000000000000", "iterative_order": "2", "Iovm": "/level4/design.ovm", "Icalc": "/../../Run0001/project.input", "Igeo": "/../../Run0001/geometry.input", "lvldir": "level4"}, "status": "started", "data": [], "workerId": "1", "processed": 0}, "status": "ok"}
+PROGRESS 26
+PROGRESS 27
+PROGRESS 28
+PROGRESS 29
+PROGRESS 30
+PROGRESS 31
+PROGRESS 32
+PROGRESS 33
+PROGRESS 34
+PROGRESS 35
+PROGRESS 36
+PROGRESS 37
+PROGRESS 38
+PROGRESS 39
+PROGRESS 40
+PROGRESS 41
+PROGRESS 42
+PROGRESS 43
+PROGRESS 44
+PROGRESS 45
+PROGRESS 46
+PROGRESS 47
+PROGRESS 48
+PROGRESS 49
+PROGRESS 50
+PROGRESS 51
+PROGRESS 52
+PROGRESS 54
+PROGRESS 55
+PROGRESS 56
+PROGRESS 57
+PROGRESS 59
+PROGRESS 60
+PROGRESS 62
+PROGRESS 64
+PROGRESS 65
+PROGRESS 66
+PROGRESS 68
+PROGRESS 69
+PROGRESS 70
+PROGRESS 72
+PROGRESS 73
+PROGRESS 74
+PROGRESS 75
+PROGRESS 90
+PROGRESS 100
+
+ 3. Frequency: 6.66667 GHz      Unknowns:  158998
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:27.9    Elapsed time: 00:00:02.7    Memory:   1.458 Gbyte 
+2024-03-16T22:54:33.008182 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2024-03-16T22:54:33.260187 x_socket: {"data": {"jobId": "5", "type": "solve", "args": {"simdir": "f_5000000500.0", "Fsolve": "5000000500.000000000000000", "iterative_order": "2", "Iovm": "/level4/design.ovm", "Icalc": "/../../Run0001/project.input", "Igeo": "/../../Run0001/geometry.input", "lvldir": "level4"}, "status": "started", "data": [], "workerId": "1", "processed": 0}, "status": "ok"}
+PROGRESS 26
+PROGRESS 27
+PROGRESS 28
+PROGRESS 29
+PROGRESS 30
+PROGRESS 31
+PROGRESS 32
+PROGRESS 33
+PROGRESS 34
+PROGRESS 35
+PROGRESS 36
+PROGRESS 37
+PROGRESS 38
+PROGRESS 39
+PROGRESS 40
+PROGRESS 42
+PROGRESS 43
+PROGRESS 44
+PROGRESS 46
+PROGRESS 47
+PROGRESS 49
+PROGRESS 51
+PROGRESS 52
+PROGRESS 53
+PROGRESS 54
+PROGRESS 55
+PROGRESS 56
+PROGRESS 57
+PROGRESS 58
+PROGRESS 59
+PROGRESS 60
+PROGRESS 61
+PROGRESS 63
+PROGRESS 65
+PROGRESS 66
+PROGRESS 67
+PROGRESS 69
+PROGRESS 71
+PROGRESS 72
+PROGRESS 73
+PROGRESS 74
+PROGRESS 75
+PROGRESS 90
+PROGRESS 100
+
+ 4. Frequency: 5 GHz      Unknowns:  158998
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:29.0    Elapsed time: 00:00:03.0    Memory:   1.460 Gbyte 
+2024-03-16T22:54:35.990305 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2024-03-16T22:54:36.245324 x_socket: {"data": {"jobId": "6", "type": "solve", "args": {"simdir": "f_1666667500.0", "Fsolve": "1666667500.000000000000000", "iterative_order": "2", "Iovm": "/level4/design.ovm", "Icalc": "/../../Run0001/project.input", "Igeo": "/../../Run0001/geometry.input", "lvldir": "level4"}, "status": "started", "data": [], "workerId": "1", "processed": 0}, "status": "ok"}
+PROGRESS 26
+PROGRESS 27
+PROGRESS 28
+PROGRESS 29
+PROGRESS 30
+PROGRESS 33
+PROGRESS 35
+PROGRESS 37
+PROGRESS 40
+PROGRESS 41
+PROGRESS 42
+PROGRESS 43
+PROGRESS 44
+PROGRESS 45
+PROGRESS 46
+PROGRESS 47
+PROGRESS 48
+PROGRESS 49
+PROGRESS 50
+PROGRESS 51
+PROGRESS 52
+PROGRESS 53
+PROGRESS 54
+PROGRESS 55
+PROGRESS 56
+PROGRESS 57
+PROGRESS 58
+PROGRESS 59
+PROGRESS 61
+PROGRESS 62
+PROGRESS 63
+PROGRESS 64
+PROGRESS 65
+PROGRESS 67
+PROGRESS 68
+PROGRESS 70
+PROGRESS 71
+PROGRESS 72
+PROGRESS 73
+PROGRESS 74
+PROGRESS 75
+PROGRESS 90
+PROGRESS 100
+
+ 5. Frequency: 1.66667 GHz      Unknowns:  158998
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:28.9    Elapsed time: 00:00:03.0    Memory:   1.460 Gbyte 
+2024-03-16T22:54:39.038455 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2024-03-16T22:54:39.290467 x_socket: {"data": {"jobId": "7", "type": "solve", "args": {"simdir": "f_8333333500.0", "Fsolve": "8333333500.000000000000000", "iterative_order": "2", "Iovm": "/level4/design.ovm", "Icalc": "/../../Run0001/project.input", "Igeo": "/../../Run0001/geometry.input", "lvldir": "level4"}, "status": "started", "data": [], "workerId": "1", "processed": 0}, "status": "ok"}
+PROGRESS 26
+PROGRESS 27
+PROGRESS 28
+PROGRESS 29
+PROGRESS 30
+PROGRESS 31
+PROGRESS 32
+PROGRESS 33
+PROGRESS 34
+PROGRESS 35
+PROGRESS 36
+PROGRESS 37
+PROGRESS 38
+PROGRESS 39
+PROGRESS 40
+PROGRESS 41
+PROGRESS 42
+PROGRESS 43
+PROGRESS 44
+PROGRESS 45
+PROGRESS 46
+PROGRESS 47
+PROGRESS 48
+PROGRESS 49
+PROGRESS 50
+PROGRESS 51
+PROGRESS 52
+PROGRESS 53
+PROGRESS 54
+PROGRESS 55
+PROGRESS 56
+PROGRESS 57
+PROGRESS 58
+PROGRESS 60
+PROGRESS 61
+PROGRESS 63
+PROGRESS 64
+PROGRESS 65
+PROGRESS 66
+PROGRESS 68
+PROGRESS 69
+PROGRESS 70
+PROGRESS 72
+PROGRESS 73
+PROGRESS 74
+PROGRESS 75
+PROGRESS 90
+PROGRESS 100
+
+ 6. Frequency: 8.33333 GHz      Unknowns:  158998
+    Solver:  Direct threaded 64-bit
+    CPU time: 00:00:30.0    Elapsed time: 00:00:03.2    Memory:   1.461 Gbyte 
+2024-03-16T22:54:42.218622 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2024-03-16T22:54:42.473630 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2024-03-16T22:54:42.725642 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2024-03-16T22:54:42.977659 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2024-03-16T22:54:43.229676 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2024-03-16T22:54:43.481686 x_socket: {"data": {"status": "noop"}, "status": "ok"}
+2024-03-16T22:54:43.733701 x_socket: {"data": {"status": "exit"}, "status": "ok"}
