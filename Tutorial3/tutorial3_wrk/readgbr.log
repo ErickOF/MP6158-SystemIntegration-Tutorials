@@ -1,0 +1,8 @@
+Sat Mar 16 01:38:03 2024
+Reading Gerber file "Z:/Documents/Git/MP6158-SystemIntegration-Tutorials/Tutorial1/WLCSP56_footprint_for_AD5940/CAMOutputs/GerberFiles/copper_top.gbr".
+
+Warnings occurred during Gerber file load:
+
+6 : Parameter block "INTop Copper*" not supported.
+
+Import Complete

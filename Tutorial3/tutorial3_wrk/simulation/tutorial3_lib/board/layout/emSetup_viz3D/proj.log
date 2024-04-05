@@ -1,0 +1,18 @@
+Momentum MomEngine_64 2023.00.265 (*) built: Jul  1 2022
+Copyright  1992 - 2022 Keysight Technologies
+Geometry processing started on: Sat Mar 16 01:59:50 2024
+Using the minimal snap distance of 0.0004 mm
+(4 layout resolution points) for layout healing.
+
+--- WARNING -------------------------------------------------------------------
+
+Layout healing changed the layout. The actual
+highest aggregate snap distance was 0.0004 mm.
+Further details have been written to the DRC
+report.
+
+-------------------------------------------------------------------------------
+Layout simplification started
+.........|.........|.........|.........| 
+Layout simplification finished
+Geometry processing finished on: Sat Mar 16 01:59:55 2024

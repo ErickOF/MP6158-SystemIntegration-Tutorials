@@ -1,0 +1,20 @@
+<!DOCTYPE Substrate>
+<SubstrateModel>
+    <stack PURPOSE_TREATMENT="USE_ALL_EXCEPT_SPECIFIED" SPECIFIED_PURPOSES="" BAL_TYPE="NONE" BAL_NUM="0">
+        <material materialname="AIR" BAL_TYPE="INHERIT" BAL_NUM="0"/>
+        <interface materialname="Copper" groundplane="1" thick="0" BAL_TYPE="NONE" thickunit="micron" BAL_NUM="0"/>
+        <material materialname="Rogers_4003C" thick="16" BAL_TYPE="INHERIT" thickunit="mil" BAL_NUM="0"/>
+        <interface materialname="" thick="" BAL_TYPE="INHERIT" thickunit="micron" BAL_NUM="0"/>
+        <material materialname="Rogers_4003C" thick="16" BAL_TYPE="INHERIT" thickunit="mil" BAL_NUM="0"/>
+        <interface materialname="" thick="" BAL_TYPE="INHERIT" thickunit="micron" BAL_NUM="0"/>
+        <material materialname="AIR" BAL_TYPE="INHERIT" BAL_NUM="0"/>
+    </stack>
+    <layers>
+        <layer materialname="Copper" bottomrough="" index="1" thick="35" subtype="0" negative="0" pinsOnly="0" sheet="1" toprough="" angle="90" thickunit="micron" expand="0" precedence="1" layer="1" processRole="1"/>
+        <layer materialname="Copper" bottomrough="" index="2" thick="35" subtype="0" negative="0" pinsOnly="0" sheet="1" toprough="" angle="90.0" thickunit="micron" expand="0" precedence="0" layer="2" processRole="1"/>
+    </layers>
+    <vias>
+        <via materialname="Copper" rough="" platingthicknessunit="micron" subtype="0" platingthickness="" platingdielectricmaterial="AIR" platingenabled="0" index1="1" index2="2" precedence="0" layer="5" processRole="4"/>
+    </vias>
+    <substrates/>
+</SubstrateModel>
