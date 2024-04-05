@@ -1,0 +1,55 @@
+
+CONFIGURATION VARIABLES WITH NON-DEFAULT VALUES:
+                                        Actual             Default
+  
+  
+FEM engine                : 430.000 2022-07-01
+FEM solver                : 1.4.0
+AFS                       : 3.1.1
+Machine                             : RDS-Keysight
+Maximum number of threads           : Automatic
+Date                                : Sat Mar 16 16:53:36 2024
+Design                              : C:\Users\eobregon\Documents\tutorial3_wrk\simulation\tutorial3_lib\board\layout\emSetup_FEM\proj.ep\Simulations\000001\emds_dsn\design
+FEM Mesher: 2.9.0
+    
+Automatic initial target mesh size: 1.00e+01 mm
+   
+ 
+INITIAL MESH
+------------
+ 
+nbPoints     : 2382
+nbTetrahedra : 13660
+  
+REFINING
+--------
+                     |              MESHING                |                           SOLVING
+ level    frequency  |  nbTetr  Elapsed time    CPU time   |  nbUnknowns   mem(GB)   Elapsed time    CPU time  Delta(S)             solver  nbIter     normRes            
+---------------------|-------------------------------------|--------------------------------------------------------------------------------------------------
+     1   10.000 GHz  |   13660    00:00:02.6  00:00:02.4   |       87450     0.806     00:00:03.7  00:00:26.5         /               Dm64                                
+     2   10.000 GHz  |   16325    00:00:00.8  00:00:00.8   |      104656     0.943     00:00:03.8  00:00:28.1    0.0515 [-&gt;0.0200]    Dm64                                
+     3   10.000 GHz  |   19542    00:00:00.8  00:00:00.7   |      125190     1.155     00:00:05.0  00:00:36.4    0.0245 [-&gt;0.0200]    Dm64                                
+     4   10.000 GHz  |   24838    00:00:01.1  00:00:01.1   |      158998     1.456     00:00:06.8  00:00:47.6    0.0228 [-&gt;0.0200]    Dm64                                
+     5   10.000 GHz  |   28627    00:00:01.4  00:00:01.3   |      183112     1.703     00:00:07.4  00:00:55.2    0.0137 [-&gt;0.0200]    Dm64                                
+ 
+COMPUTING SOLUTION
+------------------
+ 
+sample    frequency  |  nbUnknowns    mem(GB)  Elapsed time     CPU time  solver  nbIter     normRes
+---------------------|------------------------------------------------------------------------------
+     1    0.000 Hz   |      158998      1.455    00:00:07.4   00:00:46.0      LF                    
+     2   10.000 GHz  |      158998      1.456    00:00:06.8   00:00:47.6   reuse                    
+     3    3.333 GHz  |      158998      1.458    00:00:03.2   00:00:29.1    Dm64                    
+     4    6.667 GHz  |      158998      1.458    00:00:02.7   00:00:27.9    Dm64                    
+     5    5.000 GHz  |      158998      1.460    00:00:03.0   00:00:29.0    Dm64                    
+     6    1.667 GHz  |      158998      1.460    00:00:03.0   00:00:28.9    Dm64                    
+     7    8.333 GHz  |      158998      1.461    00:00:03.2   00:00:30.0    Dm64                    
+------------------------------------------------
+DISTRIBUTION SUMMARY:
+controller with id 0    on RDS-Keysight 
+solver with id 1    on RDS-Keysight:  #freq:6     
+------------------------------------------------
+------------------------------------------------
+  Total Elapsed Time = 0:01:12
+------------------------------------------------
+Simulation results can be reused

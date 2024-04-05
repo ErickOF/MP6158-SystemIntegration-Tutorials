@@ -1,0 +1,28 @@
+SIMULATION SUMMARY
+------------------
+EMDS version             : unknown
+Operating system         : win32_64
+Machine                  : RDS-Keysight
+Date                     : Sat Mar 16 16:54:45 2024
+
+Total time               :      70.33 sec
+
+Adaptive phase: 
+  refinement steps       : 1
+  time                   :      34.40 sec  ( 48.91 %)
+
+Solve phase:
+  time                   :      24.37 sec  ( 34.65 %)
+
+Timing per subtask:
+  setup                  :       0.03 sec  (  0.04 %)
+  mesh                   :       3.01 sec  (  4.28 %)
+  adapt                  :       6.04 sec  (  8.58 %)
+  mesh2d                 :       0.00 sec  (  0.00 %)
+  solve2d                :       0.00 sec  (  0.00 %)
+  solve3d                :      57.64 sec  ( 81.95 %)
+  fileIO                 :       0.00 sec  (  0.00 %)
+  farfield               :       0.00 sec  (  0.00 %)
+  fem_vmesh              :       0.00 sec  (  0.00 %)
+  fem_vmesh_2            :       0.00 sec  (  0.00 %)
+  mesh_ops               :       0.00 sec  (  0.00 %)
