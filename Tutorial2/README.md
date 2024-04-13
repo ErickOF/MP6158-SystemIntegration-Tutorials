@@ -1,7 +1,7 @@
-# **Tutorial 2 - SIP schematic simulation for AD5940 componente in Keysight ADS**
+# **Tutorial 2 - SIP schematic simulation for AD5940 component in Keysight ADS**
 
 ## 1. Instrucciones generales
-In this task you must design and simulate the routing for the load of the
+In this task, you must design and simulate the routing for the load of the
 AD5940 component, where the critical pins CE0 and AIN1 are the ones that allow
 the impedance of the load to be measured. These pins are connected through VIP
 (Via-In-Pad) type vias and are routed through two layers, as described in the
